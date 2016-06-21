@@ -1,105 +1,123 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Lyr.cv by liyiran210</title>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<title>fullPage.js — 项目导航演示_dowebok</title>
+	<link rel="stylesheet" href="css/github-light.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/jquery.fullPage.css">
+	<style>
+		.section { text-align: center; font: 50px "Microsoft Yahei"; color: #fff;}
+	</style>
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/jquery.fullPage.min.js"></script>
+	<script>
+		$(function(){
+			$('#dowebok').fullpage({
+				sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90'],
+				anchors: ['page1', 'page2', 'page3', 'page4'],
+//				'navigation': true,
+				menu: '#menu'
+			});
+		});
+	</script>
+</head>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header id="header" style="    background-position: 0% -25px;">
-        <a href="#" class="image avatar"><img src="img/avatar.jpg" alt=""></a>
-        <h1>南边有个程序然</h1>
-        <p><strong>个人简历</strong></p>
+<body>
+<header id="header" style="    background-position: 0% -25px;">
+	<a href="#" class="image avatar"><img src="images/avatar.jpg" alt=""></a>
+	<h1>南边有个程序然</h1>
+	<p><strong>个人简历</strong></p>
 
-        <p class="view"><a href="https://github.com/liyiran210/lyr.cv">View the Project on GitHub <small>liyiran210/lyr.cv</small></a></p>
+	<p class="view"><a href="https://github.com/liyiran210/lyr.cv">View the Project on GitHub <small>liyiran210/lyr.cv</small></a></p>
 
+	<ul id="menu">
+		<li class="active" data-menuanchor="page1"><a class="a1" href="#page1" title="个人资料"></a></li>
+		<li data-menuanchor="page2"><a class="a2" href="#page2" title="技能"></a></li>
+		<li data-menuanchor="page3"><a class="a3" href="#page3" title="项目展示"></a></li>
+		<li data-menuanchor="page4"><a class="a4" href="#page4" title="其他"></a></li>
+	</ul>
 
-        <ul>
-          <li><a href="https://github.com/liyiran210/lyr.cv/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/liyiran210/lyr.cv/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/liyiran210/lyr.cv">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>欢迎观临小伙子我的主页</h3>
+	<ul class="jiao">
+		<li><a href="https://github.com/liyiran210/lyr.cv/zipball/master">Download <strong>ZIP File</strong></a></li>
+		<li><a href="https://github.com/liyiran210/lyr.cv/tarball/master">Download <strong>TAR Ball</strong></a></li>
+		<li><a href="https://github.com/liyiran210/lyr.cv">View On <strong>GitHub</strong></a></li>
+	</ul>
+</header>
+<div id="dowebok">
+	<div class="section">
+		<h3>个人资料</h3>
+		<p>啪啪啪~~~~~</p>
+	</div>
+	<div class="section">
+		<h3>技能</h3>
+		<p>啪啪啪啪~~~~~</p>
+	</div>
+	<div class="section">
+		<h3>项目展示</h3>
+		<p>啪啪啪啪~~~~~</p>
+	</div>
+	<div class="section">
+		<h3>其他</h3>
+		<p>这是最后一屏</p>
+	</div>
+</div>
 
-<p>然后我还没有开始写代码搭建所以，全都是空的！</p>
-
-<!--<h3>-->
-<!--<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>-->
-
-<!--<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>-->
-
-<!--<h3>-->
-<!--<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>-->
-
-<!--<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.````</p>-->
-
-<!--<h3>-->
-<!--<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>-->
-
-<!--<p>You can <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/#mentioning-users-and-teams" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>-->
-
-<!--<h3>-->
-<!--<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>-->
-
-<!--<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>-->
-      <!--</section>-->
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/liyiran210">liyiran210</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+</body>
 <style>
-  header{
-    background-color: #1f1815;
-    background-attachment: scroll,	fixed;
-    background-image: url("img/overlay.png"), url("img/bg.jpg");
-    background-position: top left,	top left;
-    background-repeat: repeat,	no-repeat;
-    background-size: auto,	auto 100%;
-    color: rgba(255, 255, 255, 0.5);
-    height: 100%;
-    left: 0;
-    padding: 8em 4em 0 0;
-    position: fixed;
-    text-align: right;
-    top: 0;
-    width: 32%;
-  }
-  #header .image.avatar {
-    margin: 0 0 1em 0;
-    width: 6.25em;
-  }
-  #header ul{
-    list-style: none;
-    height: 40px;
-    width: 270px;
-    position: relative;
-    top: 15em;
-    margin: 0 auto;
-  }
-  .image.avatar img {
-    border-radius: 100%;
-    width: 100%;
-  }
-  .image {
-    border-radius: 0.35em;
-    border: 0;
-    display: inline-block;
-    position: relative;
-  }
+	header{
+		background-color: #1f1815;
+		background-attachment: scroll,	fixed;
+		background-image: url("images/overlay.png"), url("images/bg.jpg");
+		background-position: top left,	top left;
+		background-repeat: repeat,	no-repeat;
+		background-size: auto,	auto 100%;
+		color: rgba(255, 255, 255, 0.5);
+		height: 100%;
+		left: 0;
+		padding: 8em 4em 0 0;
+		position: fixed;
+		text-align: right;
+		top: 0;
+		width: 32%;
+		z-index: 999;
+	}
+	#header .image.avatar {
+		margin: 0 0 1em 0;
+		width: 6.25em;
+	}
+	#header .jiao{
+		list-style: none;
+		height: 40px;
+		width: 270px;
+		position: relative;
+		top: 15em;
+		margin: 0 auto;
+	}
+	.image.avatar img {
+		border-radius: 100%;
+		width: 100%;
+	}
+	.image {
+		border-radius: 0.35em;
+		border: 0;
+		display: inline-block;
+		position: relative;
+	}
+	#dowebok{
+		margin-left: 32%;
+
+		width: calc(100% - 32%);
+	}
+	#menu { position: absolute; right: -20px; top: 50%; width: 40px; margin-top: -170px; padding: 0; list-style-type: none;}
+	#menu li { float: left;}
+	#menu a { display: block; width: 28px; height: 28px; margin: 20px 6px; border-radius: 14px; text-indent: -9999px; overflow: hidden; background-color: #a0afb9; background-position: 50%; background-repeat: no-repeat;}
+	#menu .a1 { background-image: url(images/df-01.png);}
+	#menu .a2 { background-image: url(images/df-02.png);}
+	#menu .a3 { background-image: url(images/df-03.png);}
+	#menu .a4 { background-image: url(images/df-04.png);}
+	#menu a:hover, #menu .active a { margin: 14px 0; border: 6px solid #fff; box-shadow: 1px 1px 3px 1px #b4d7ed; border-radius: 20px; background-color: #239ae6;}
+
+
 </style>
 </html>
