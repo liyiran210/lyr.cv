@@ -14,9 +14,10 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
-        <h1>Lyr.cv</h1>
-        <p>个人简历呱</p>
+      <header id="header" style="    background-position: 0% -25px;">
+        <a href="#" class="image avatar"><img src="img/avatar.jpg" alt=""></a>
+        <h1>南边有个程序然</h1>
+        <p><strong>个人简历</strong></p>
 
         <p class="view"><a href="https://github.com/liyiran210/lyr.cv">View the Project on GitHub <small>liyiran210/lyr.cv</small></a></p>
 
@@ -61,4 +62,44 @@
     <script src="javascripts/scale.fix.js"></script>
     
   </body>
+<style>
+  header{
+    background-color: #1f1815;
+    background-attachment: scroll,	fixed;
+    background-image: url("img/overlay.png"), url("img/bg.jpg");
+    background-position: top left,	top left;
+    background-repeat: repeat,	no-repeat;
+    background-size: auto,	auto 100%;
+    color: rgba(255, 255, 255, 0.5);
+    height: 100%;
+    left: 0;
+    padding: 8em 4em 0 0;
+    position: fixed;
+    text-align: right;
+    top: 0;
+    width: 32%;
+  }
+  #header .image.avatar {
+    margin: 0 0 1em 0;
+    width: 6.25em;
+  }
+  #header ul{
+    list-style: none;
+    height: 40px;
+    width: 270px;
+    position: relative;
+    top: 15em;
+    margin: 0 auto;
+  }
+  .image.avatar img {
+    border-radius: 100%;
+    width: 100%;
+  }
+  .image {
+    border-radius: 0.35em;
+    border: 0;
+    display: inline-block;
+    position: relative;
+  }
+</style>
 </html>

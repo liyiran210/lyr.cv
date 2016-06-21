@@ -63,7 +63,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
+  color:#f4f4f4;
   margin:0 0 20px;
 }
 
@@ -168,9 +168,9 @@ header ul {
   list-style:none;
   height:40px;
   padding:0;
-  background: #f4f4f4;
+
   border-radius:5px;
-  border:1px solid #e0e0e0;
+
   width:270px;
 }
 
@@ -208,7 +208,7 @@ header ul a:active {
 }
 
 strong {
-  color:#222;
+  color:#f4f4f4;
   font-weight:700;
 }
 
@@ -220,7 +220,6 @@ header ul li + li + li {
 header ul a strong {
   font-size:14px;
   display:block;
-  color:#222;
 }
 
 section {
